@@ -12,7 +12,7 @@ $ npm install --save-dev gulp-blueftp
 ```js
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-var ftp = require('gulp-ftp');
+var ftp = require('gulp-blueftp');
 var src=['jslib/modules/index/main.js','jslib/search/search.js']
 var ftpConfig={
 			host: 'xxx.xxx.com',
